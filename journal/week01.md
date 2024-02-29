@@ -181,7 +181,7 @@ docker build -t frontend-react-js ./frontend-react-js
 ### Run Container
 
 ```sh
-docker run -p 3000:3000 -d frontend-react-js
+docker run --rm -it -p 3000:3000 frontend-react-js
 ```
 
 ## Multiple Containers
